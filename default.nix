@@ -17,6 +17,7 @@ let
     pkgs.nix
     pkgs.tree
     pkgs.xclip
+    pkgs.mosh
     ];
 
   # Tmux with a custom tmux.conf baked in
