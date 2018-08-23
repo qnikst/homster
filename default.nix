@@ -2,7 +2,7 @@ let
   # We use default configuration on PC
   # This lets user to update package config on each PC by adding
   # additional configuration to .config/nixpkgs/config.nix
-  pkgs = import <nixpkgs> {};
+  pkgs = import ./nixpkgs {};
   homster =
     [
     # customized packages
@@ -18,6 +18,7 @@ let
     pkgs.tree
     pkgs.xclip
     pkgs.mosh
+    pkgs.tdesktop
     ];
 
   # Tmux with a custom tmux.conf baked in
